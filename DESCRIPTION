@@ -1,5 +1,5 @@
 Package: github.actions.tutorial
-Title: 
+Title: Github Actions Tutorial
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Durand",
