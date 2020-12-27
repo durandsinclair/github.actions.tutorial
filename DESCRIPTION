@@ -1,0 +1,17 @@
+Package: github.actions.tutorial
+Title: 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Durand",
+           family = "Sinclair",
+           role = c("aut", "cre"),
+           email = "durandsinclair@yahoo.com.au",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Tutorial for running a CRON package via Github Actions. Based on https://blog.simonpcouch.com/blog/r-github-actions-commit/
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
