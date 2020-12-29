@@ -55,7 +55,17 @@ jobs:
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
 
+# Generate data by running the script
       - name: Generate data
         run: |
           source("R/number_generator.R")
         shell: Rscript {0} 
+
+# Save the results of the script
+      - name: Commit files
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
+          git add --all 
+          git commit -am "add data"
+          git push
