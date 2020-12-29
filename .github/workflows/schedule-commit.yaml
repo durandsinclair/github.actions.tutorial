@@ -57,5 +57,5 @@ jobs:
 
       - name: Generate data
         run: |
-          source("R/job.R")
+          source("R/number_generator.R")
         shell: Rscript {0} 
